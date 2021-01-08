@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#000000">
+    android:background="#61707C"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:background="#232222"
         android:scaleType="centerCrop"
         android:src="@drawable/imagee1"
         app:srcCompat="@drawable/imagee1" />
@@ -25,12 +26,33 @@
         android:layout_marginTop="35dp"
         android:fontFamily="sans-serif-medium"
         android:text="WallView"
-        android:textColor="@color/teal_200"
+        android:textColor="#FFFFFF"
         android:textSize="60sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/LocationEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/MoviesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorTextIcons"
+        android:hint="Enter Zip Code"
+        android:padding="5dp" />
 
 
-
+    <Button
+        android:id="@+id/MoviesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="Find movies"
+        android:textColor="@color/colorTextIcons" />
 
 
 </RelativeLayout>

@@ -15,6 +15,13 @@ public class MoviesArrayAdapter extends ArrayAdapter {
         this.mMovies = mMovies;
         this.mGenres = mGenres;
     }
+    @Override
+    public Object getItem(int position) {
+        String movies = mMovies[position];
+        String genre = mGenres[position];
+        return String.format("%s \nFavourite Movies: %s", mMovies, mGenres);
+    }
+
 
 
     }

@@ -10,6 +10,12 @@ public class MoviesArrayAdapter extends ArrayAdapter {
 
     public MoviesArrayAdapter(Context mContext, int resource, String[] mMovies, String[] mGenres) {
 
+        super(mContext, resource);
+        this.mContext = mContext;
+        this.mMovies = mMovies;
+        this.mGenres = mGenres;
+    }
+
 
     }
-}
+

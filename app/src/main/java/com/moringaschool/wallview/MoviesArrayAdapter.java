@@ -1,7 +1,14 @@
 package com.moringaschool.wallview;
 
-public class MoviesArrayAdapter {
-    public MoviesArrayAdapter(MoviesActivity moviesActivity, int simple_list_item_1, String[] movies, String[] genres) {
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class MoviesArrayAdapter extends ArrayAdapter {
+    private Context mContext;
+    private String[] mMovies;
+    private String[] mGenres;
+
+    public MoviesArrayAdapter(Context mContext, int resource, String[] mMovies, String[] mGenres) {
 
 
     }

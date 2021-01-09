@@ -22,7 +22,10 @@ public class MoviesArrayAdapter extends ArrayAdapter {
         return String.format("%s \nFavourite Movies: %s", mMovies, mGenres);
     }
 
-
+    @Override
+    public int getCount() {
+        return mMovies.length;
+    }
 
     }
 

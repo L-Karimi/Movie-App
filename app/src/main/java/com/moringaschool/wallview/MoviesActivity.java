@@ -25,7 +25,7 @@ public class MoviesActivity extends AppCompatActivity {
             "The mechanic resurrection", "Transporter", "Soul", "Avengers",
             "Shirley", "Wonder Woman", "Roma",
             "Get Out", "Moonlight"};
-    private String[] genres = new String[] {"Fantacy", "WAr", "Romance",
+    private String[] genres = new String[] {"Fantasy", "WAr", "Romance",
             "Action", "Horror", "Drama", "Comedy", "Thriller",  };
 
     @Override
@@ -35,14 +35,11 @@ public class MoviesActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         MoviesArrayAdapter adapter = new MoviesArrayAdapter(this, android.R.layout.simple_list_item_1, movies, genres);
-        mListView.setAdapter((ListAdapter) adapter);
+        mListView.setAdapter(adapter);
 
-        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String restaurant = ((TextView)view).getText().toString();
-                Toast.makeText(MoviesActivity.this, restaurant, Toast.LENGTH_LONG).show();
-            }
+        mListView.setOnItemClickListener((adapterView, view, i, l) -> {
+            String movies = ((TextView)view).getText().toString();
+            Toast.makeText(MoviesActivity.this, movies, Toast.LENGTH_LONG).show();
         });
 
         Intent intent = getIntent();

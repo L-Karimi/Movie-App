@@ -17,8 +17,8 @@ public class MoviesArrayAdapter extends ArrayAdapter {
     }
     @Override
     public Object getItem(int position) {
-        String movies = mMovies[position];
-        String genre = mGenres[position];
+        String Movies = mMovies[position];
+        String Genre = mGenres[position];
         return String.format("%s \nFavourite Movies: %s", mMovies, mGenres);
     }
 

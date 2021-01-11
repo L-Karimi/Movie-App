@@ -32,20 +32,20 @@
         tools:ignore="DuplicateIds" />
 
     <EditText
-        android:id="@+id/LocationEdit"
+        android:id="@+id/GenresEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/MoviesButton"
+        android:layout_above="@id/FindMoviesButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:background="@color/colorTextIcons"
-        android:hint="Enter Movie Tittle"
-        android:inputType="number|text"
+        android:hint="Enter Genre"
+        android:inputType="text"
         android:padding="5dp" />
 
 
     <Button
-        android:id="@+id/MoviesButton"
+        android:id="@+id/FindMoviesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

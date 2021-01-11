@@ -8,13 +8,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    @BindView(R.id.MoviesButton) Button mFindMoviesButton;
-    @BindView(R.id.LocationEdit) EditText mLocationEditText;
+
+    @BindView(R.id.FindMoviesButton) Button mFindMoviesButton;
+    @BindView(R.id.GenresEdit) EditText mGenresEdit;
     @BindView(R.id.appNameTextView) TextView mAppNameTextView;
 
     @Override
@@ -25,14 +28,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mFindMoviesButton.setOnClickListener(this);
     }
+            @Override
+            public void onClick(View v) {
+//                if (v == mFindMoviesButton){
+//                    String genres = mGenresEdit.getText().toString();
+//
+//                    Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
+//                    intent.putExtra("genres", genres);
+//
+//                    startActivity(intent);
+//                Toast.makeText(MainActivity.this, "HelloWorld!", Toast.LENGTH_LONG).show();
+//                }
 
-    @Override
-    public void onClick(View v) {
-        if(v == mFindMoviesButton) {
-            String location = mLocationEditText.getText().toString();
-            Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
-            intent.putExtra("location", location);
-            startActivity(intent);
-        }
+//                }
+                Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
+                startActivity(intent);
+                Toast.makeText(MainActivity.this, "Success!", Toast.LENGTH_LONG).show();
+
+
     }
 }
+
+
+
+
+
+
+
+

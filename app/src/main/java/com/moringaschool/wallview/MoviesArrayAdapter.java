@@ -4,11 +4,13 @@ import android.content.Context;
 import android.widget.ArrayAdapter;
 
 public class MoviesArrayAdapter extends ArrayAdapter {
+//    private MoviesActivity mContext;
+
     private Context mContext;
     private String[] mMovies;
     private String[] mGenres;
 
-    public MoviesArrayAdapter(Context mContext, int resource, String[] mMovies, String[] mGenres) {
+    public MoviesArrayAdapter(MoviesActivity mContext, int resource, String[] mMovies, String[] mGenres) {
 
         super(mContext, resource);
         this.mContext = mContext;
@@ -17,9 +19,9 @@ public class MoviesArrayAdapter extends ArrayAdapter {
     }
     @Override
     public Object getItem(int position) {
-        String Movies = mMovies[position];
-        String Genre = mGenres[position];
-        return String.format("%s \nFavourite Movies: %s", mMovies, mGenres);
+        String movie = mMovies[position];
+        String Genres = mGenres[position];
+        return String.format("%s \nFavourite Movies: %s", movie, Genres);
     }
 
     @Override

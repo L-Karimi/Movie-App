@@ -15,7 +15,6 @@ import butterknife.ButterKnife;
 
 
 public class MoviesActivity extends AppCompatActivity {
-//    public static final String TAG = MoviesActivity.class.getSimpleName();
     @BindView(R.id.genresTextView) TextView mGenreTextView;
     @BindView(R.id.listView) ListView mListView;
 

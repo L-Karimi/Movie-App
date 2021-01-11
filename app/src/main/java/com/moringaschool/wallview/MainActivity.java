@@ -30,17 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
             @Override
             public void onClick(View v) {
-//                if (v == mFindMoviesButton){
-//                    String genres = mGenresEdit.getText().toString();
-//
-//                    Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
-//                    intent.putExtra("genres", genres);
-//
-//                    startActivity(intent);
-//                Toast.makeText(MainActivity.this, "HelloWorld!", Toast.LENGTH_LONG).show();
-//                }
 
-//                }
                 Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, "Success!", Toast.LENGTH_LONG).show();

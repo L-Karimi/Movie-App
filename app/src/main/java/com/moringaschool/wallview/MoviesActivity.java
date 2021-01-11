@@ -30,33 +30,6 @@ public class MoviesActivity extends AppCompatActivity {
             "Fantasy", "WAr", "Romance",
             "Action", "Horror", "Drama", "Comedy", "Thriller"
     };
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_movies);
-
-
-//        ButterKnife.bind(this);
-//
-//        mListView = (ListView) findViewById(R.id.listView);
-//        mGenreTextView = (TextView) findViewById(R.id.genresTextView);
-//
-//
-//        MoviesArrayAdapter adapter = new MoviesArrayAdapter(this, android.R.layout.simple_list_item_1, movies, genres);
-//        mListView.setAdapter(adapter);
-//
-//        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                String Movie = ((TextView)view).getText().toString();
-//                Toast.makeText(MoviesActivity.this, Movie, Toast.LENGTH_LONG).show();
-//            }
-//        });
-//        ButterKnife.bind(this);
-//
-//        Intent intent = getIntent();
-//        String genres = intent.getStringExtra("genres");
-//        mGenreTextView.setText("Genre: " + genres);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

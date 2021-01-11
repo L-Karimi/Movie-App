@@ -36,8 +36,6 @@ public class MoviesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies);
         ButterKnife.bind(this);
-       // mListView = (ListView) findViewById(R.id.listView);
-      //  mGenreTextView = (TextView) findViewById(R.id.genresTextView);
 
         MoviesArrayAdapter adapter = new MoviesArrayAdapter(this, android.R.layout.simple_list_item_1, movies, genres);
         mListView.setAdapter(adapter);

@@ -4,11 +4,12 @@
 * Lucy Karimi
 
 ## DESCRIPTION
-* This is a simple java application that allows user to see alist of movies together with their genres and is also able to search according to their preferences.
+* This is a simple java application that allows user to see a list of movies together with their genres and is also able to search according to their preferences.
 
 
 ## PROJECT SETUP INSTRUCTIONS
 Visit the link - https://github.com/luciahroyalty101/WallView-App
+
 -Download and install Android SDK
 
 - Download and install JAVA
@@ -20,7 +21,7 @@ Visit the link - https://github.com/luciahroyalty101/WallView-App
 ### Link to live site
 * https://github.com/luciahroyalty101/WallView-App
 
-## TECNOLOGIES USED
+## TECHNOLOGIES USED
 * java
 * Android
 

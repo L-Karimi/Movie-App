@@ -24,10 +24,10 @@ public class MoviesActivity extends AppCompatActivity {
     private String[] movies = new String[] {
             "Insidious", "Equalizer",
             "War Room", "Bay Watch", "Lucy", "Love and Lust",
-            "The mechanic resurrection", "Transporter"
+            "The mechanic resurrection", "Transporter","Shoot me up","London has fallen","Spiderman"
     };
     private  String[] genres = new String[] {
-            "Fantasy", "WAr", "Romance",
+            "Fantasy", "War", "Romance",
             "Action", "Horror", "Drama", "Comedy", "Thriller"
     };
 

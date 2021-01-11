@@ -4,7 +4,6 @@ import android.content.Context;
 import android.widget.ArrayAdapter;
 
 public class MoviesArrayAdapter extends ArrayAdapter {
-//    private MoviesActivity mContext;
 
     private Context mContext;
     private String[] mMovies;

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @BindView(R.id.FindMoviesButton) Button mFindMoviesButton;
     @BindView(R.id.GenresEdit) EditText mGenresEdit;
     @BindView(R.id.appNameTextView) TextView mAppNameTextView;
-//    @BindView(R.id.genresTextView)
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,16 +1,14 @@
 package com.moringaschool.wallview;
-import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AboutActivity  extends AppCompatActivity {
+import android.os.Bundle;
+
+public class AboutActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about_activty);
+        setContentView(R.layout.activity_about);
     }
 }
-
-
-
-

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ima"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallview2"
+    android:foreground="@drawable/wallview2"
+    tools:context="com.moringaschool.wallview.MoviesActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#232222"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagee1"
+        app:srcCompat="@drawable/wallview2"
+        tools:srcCompat="@drawable/wallview2" />
+
+    <TextView
+        android:id="@+id/genresTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="About WallView " />
+
+
+</RelativeLayout>

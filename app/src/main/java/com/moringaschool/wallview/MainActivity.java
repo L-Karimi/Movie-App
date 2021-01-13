@@ -20,15 +20,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @BindView(R.id.GenresEdit) EditText mGenresEdit;
     @BindView(R.id.appNameTextView) TextView mAppNameTextView;
 
-
+//onclick listener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //butterknife  to bind views
         ButterKnife.bind(this);
 
         mFindMoviesButton.setOnClickListener(this);
     }
+//    intent to navigate from mainactivity to moviesactivity on click
             @Override
             public void onClick(View v) {
 

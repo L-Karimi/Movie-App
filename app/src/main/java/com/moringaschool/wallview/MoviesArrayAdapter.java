@@ -8,8 +8,8 @@ public class MoviesArrayAdapter  extends ArrayAdapter{
     String [] mMovies;
     String [] mGenres;
 
+    //constructors
     public MoviesArrayAdapter(Context mContext, int resource, String[] movies, String[] genres) {
-
         super(mContext, resource);
         this.mContext = mContext;
         this.mMovies = movies;
@@ -20,7 +20,8 @@ public class MoviesArrayAdapter  extends ArrayAdapter{
     public Object getItem(int position) {
         String movie = mMovies[position];
         String genre = mGenres[position];
-        return String.format("%s \nServes great: %s", movie, genre);
+        //toast message
+        return String.format("%s \n what a favorite: %s", movie, genre);
     }
 
     @Override

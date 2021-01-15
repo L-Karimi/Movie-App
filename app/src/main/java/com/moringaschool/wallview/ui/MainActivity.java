@@ -1,4 +1,4 @@
-package com.moringaschool.wallview;
+package com.moringaschool.wallview.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.moringaschool.wallview.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/wallview2"
     android:foreground="@drawable/wallview2"
-    tools:context="com.moringaschool.wallview.MoviesActivity">
+    tools:context="com.moringaschool.wallview.ui.MoviesActivity">
 
     <ImageView
         android:id="@+id/imageView"

@@ -1,4 +1,4 @@
-package com.moringaschool.wallview;
+package com.moringaschool.wallview.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.moringaschool.wallview.MoviesArrayAdapter;
+import com.moringaschool.wallview.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -57,7 +60,7 @@ public class MoviesActivity extends AppCompatActivity {
             //intent to move to next activities
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MoviesActivity.this, AboutActivity.class);
+                Intent intent = new Intent(MoviesActivity.this, com.moringaschool.wallview.ui.AboutActivity.class);
                 startActivity(intent);
             }
         });

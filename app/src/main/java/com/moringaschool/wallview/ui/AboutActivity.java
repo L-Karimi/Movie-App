@@ -1,8 +1,10 @@
-package com.moringaschool.wallview;
+package com.moringaschool.wallview.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.moringaschool.wallview.R;
 
 public class AboutActivity extends AppCompatActivity {
 

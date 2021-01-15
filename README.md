@@ -24,6 +24,7 @@ Visit the link - https://github.com/luciahroyalty101/WallView-App
 ## TECHNOLOGIES USED
 * java
 * Android
+* Postman
 
 
 ### SUPPORT AND CONTACT DETAILS

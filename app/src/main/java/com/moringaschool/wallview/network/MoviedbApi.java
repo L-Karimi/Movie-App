@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 public interface MoviedbApi {
     @GET("search/movie")
-    Call<Movie> getmovie(
+    Call<Movie> getMovie(
             @Query("api_key") String api_key,
             @Query("query") String query,
               @Query("page") String page

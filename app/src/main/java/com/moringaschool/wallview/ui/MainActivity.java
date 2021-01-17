@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if(!(genres).equals("")){
                         addToSharedPreferences(genres);
                     }
-                Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
+                Intent intent = new Intent(MainActivity.this, MoviesListActivity.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, "Success!", Toast.LENGTH_LONG).show();
 

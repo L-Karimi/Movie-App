@@ -17,7 +17,7 @@ import com.moringaschool.wallview.Constants;
 import com.moringaschool.wallview.MoviesArrayAdapter;
 import com.moringaschool.wallview.R;
 import com.moringaschool.wallview.adapters.MovieListAdapter;
-import com.moringaschool.wallview.model.Genre;
+//import com.moringaschool.wallview.model.Genre;
 import com.moringaschool.wallview.model.Movie;
 import com.moringaschool.wallview.network.MoviedbApi;
 import com.moringaschool.wallview.network.MoviedbClient;

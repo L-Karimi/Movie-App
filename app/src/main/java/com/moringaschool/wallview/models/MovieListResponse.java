@@ -1,11 +1,11 @@
 
-package com.moringaschool.wallview.model;
+package com.moringaschool.wallview.models;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Movie {
+public class MovieListResponse {
 
     @SerializedName("page")
     @Expose
@@ -19,28 +19,6 @@ public class Movie {
     @SerializedName("total_results")
     @Expose
     private Integer totalResults;
-
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
-    public Movie() {
-    }
-
-    /**
-     * 
-     * @param totalResults
-     * @param totalPages
-     * @param page
-     * @param results
-     */
-    public Movie(Integer page, List<Result> results, Integer totalPages, Integer totalResults) {
-        super();
-        this.page = page;
-        this.results = results;
-        this.totalPages = totalPages;
-        this.totalResults = totalResults;
-    }
 
     public Integer getPage() {
         return page;

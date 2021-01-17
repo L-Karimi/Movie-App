@@ -1,23 +1,16 @@
 package com.moringaschool.wallview.adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.moringaschool.wallview.R;
-import com.moringaschool.wallview.model.Movie;
-import com.moringaschool.wallview.model.Result;
-import com.moringaschool.wallview.ui.MovieDetailActivity;
-import com.squareup.picasso.Picasso;
-
-import org.parceler.Parcels;
+import com.moringaschool.wallview.models.Result;
 
 import java.util.List;
 

@@ -6,8 +6,7 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 
 import com.moringaschool.wallview.R;
-import com.moringaschool.wallview.model.Movie;
-import com.moringaschool.wallview.model.Result;
+import com.moringaschool.wallview.models.Result;
 
 public class MovieDetailFragment extends AppCompatActivity {
 

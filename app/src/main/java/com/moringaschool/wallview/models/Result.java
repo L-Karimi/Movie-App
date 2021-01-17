@@ -1,5 +1,5 @@
 
-package com.moringaschool.wallview.model;
+package com.moringaschool.wallview.models;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -49,48 +49,6 @@ public class Result {
     @SerializedName("vote_count")
     @Expose
     private Integer voteCount;
-
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
-    public Result() {
-    }
-
-    /**
-     * 
-     * @param overview
-     * @param voteAverage
-     * @param releaseDate
-     * @param video
-     * @param genreIds
-     * @param originalLanguage
-     * @param title
-     * @param originalTitle
-     * @param popularity
-     * @param backdropPath
-     * @param id
-     * @param voteCount
-     * @param adult
-     * @param posterPath
-     */
-    public Result(Boolean adult, String backdropPath, List<Integer> genreIds, Integer id, String originalLanguage, String originalTitle, String overview, Double popularity, String posterPath, String releaseDate, String title, Boolean video, Double voteAverage, Integer voteCount) {
-        super();
-        this.adult = adult;
-        this.backdropPath = backdropPath;
-        this.genreIds = genreIds;
-        this.id = id;
-        this.originalLanguage = originalLanguage;
-        this.originalTitle = originalTitle;
-        this.overview = overview;
-        this.popularity = popularity;
-        this.posterPath = posterPath;
-        this.releaseDate = releaseDate;
-        this.title = title;
-        this.video = video;
-        this.voteAverage = voteAverage;
-        this.voteCount = voteCount;
-    }
 
     public Boolean getAdult() {
         return adult;

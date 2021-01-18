@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface MoviedbApi {
-    @GET("search/movie")
+    @GET("discover/movie")
     Call<MovieListResponse> getMovies(
             @Query("api_key") String api_key,
             @Query("language") String language,
